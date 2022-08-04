@@ -1,0 +1,221 @@
+:root{
+    --text-color: #757575;
+    --title-color:#212121;
+    --main-background-color:#F5F5F5;
+    --second-background-color:#F5F4FA;
+    --brand-color: #2196F3;
+    --second-brand-color: #188CE8;
+    --brandnew-color: #2F303A;
+    --hero-text-color: #FFFFFF;
+    --logo-color:#000000;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-color);
+    letter-spacing: 0.03em;
+    color: var(--main-background-color);
+    color: var(--title-color);
+}
+ul{
+    list-style: none;
+}
+.logo {
+    color: var(--logo-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.web,
+.item-nav:hover,
+.item-nav:focus,
+.address-nav:hover,
+.address-nav:focus,
+.address:hover,
+.address:focus {
+    color: var(--brand-color);
+}
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+/* header */
+
+.item-nav {
+    color: var(--title-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+
+}
+.address-nav{
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+
+}
+/* hero-page */
+.hero-page {
+    background-color: var(--brandnew-color)
+}
+.main-title {
+    color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+}
+
+.buy-button {
+    cursor: pointer;
+    color: var(--hero-text-color);
+    background-color: var(--brand-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.buy-button:hover{
+    background: var(--second-brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* main index*/
+.feature {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;  
+}
+.description{
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+.example{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+}
+.team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+}
+.person{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+}
+.position{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+}
+
+.text {
+    color: var(--text-color);
+}
+.title {
+    color: var(--title-color);
+}
+/* footer */
+.address{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+.address-f {
+    text-decoration: none;
+    color: var(--hero-text-color);
+}
+.end-page{
+    background-color: var(--brandnew-color);
+}
+.logo-footer{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    text-decoration: none;
+    color: var(--hero-text-color);
+    font-family: 'Raleway', sans-serif
+    
+}
+.address-footer {
+    font-style: normal;
+}
+.background{
+    background-color: var(--second-background-color);
+}
+.persons {
+    background-color: var(--hero-text-color);
+}
+
+/* портфоліо */
+
+.text-button{
+    color: var(--title-color);
+}
+.project-button {
+    background-color: var(--second-background-color);
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.project-button:hover,
+.project-button:focus {
+    background-color: var(--brand-color);
+    color: var(--hero-text-color);
+}
+.project-item {
+    text-decoration: none;
+}
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.project-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
